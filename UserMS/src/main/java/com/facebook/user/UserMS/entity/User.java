@@ -1,4 +1,4 @@
-package com.facebook.user.entity;
+package com.facebook.user.UserMS.entity;
 
 import java.time.LocalDate;
 
@@ -7,7 +7,7 @@ import org.springframework.data.annotation.Transient;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.facebook.user.dto.Gender;
+import com.facebook.user.UserMS.dto.Gender;
 
 @Document(collection = "users")
 public class User {

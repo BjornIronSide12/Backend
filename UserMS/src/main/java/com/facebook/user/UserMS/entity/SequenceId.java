@@ -1,4 +1,4 @@
-package com.facebook.user.entity;
+package com.facebook.user.UserMS.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
